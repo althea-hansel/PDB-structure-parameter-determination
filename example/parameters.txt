@@ -1,0 +1,18 @@
+Type (distance or angle)	Residue 1	Residue 2	Residue 3
+
+distance	273	274
+distance 	274	275
+distance	275	276
+distance	274	276
+distance	275 277
+distance	275	288
+distance	210	162
+distance	210	181
+distance	210	275
+distance	162	275
+distance	181	275
+distance	162	181
+angle	274	275	276
+angle	162	210	181
+angle	162	210	275
+angle	181	210	275
