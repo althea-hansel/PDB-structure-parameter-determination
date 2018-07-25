@@ -7,7 +7,9 @@ Calculate distance and angle parameters for a large-scale set of PDB protein str
 
 Overview
 =============
-All scripts and data structure to calculate structure parameters are contained in the provided python files and run from get_structure_parameters.py. The user must provide a parameters.txt file in the same format as the example file
+All scripts and data structure to calculate structure parameters are contained in the provided python files and run from get_structure_parameters.py. The user must provide a parameters.txt file in the same format as the example file.
+
+The example folder includes all scripts, input PDB structures for the Aurora Kinase A, and the output file.
 
 Method
 =============
@@ -18,6 +20,7 @@ To calculate the parameters, simply run the get_structure_parameters.py file wit
 ```bash
 python get_structure_parameters.py
 ```
+Measurements output in the output.txt file written by the script. Distances are reported in angstroms, angles are reported in degrees.
 
 System Requirements
 ======
