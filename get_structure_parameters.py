@@ -117,6 +117,5 @@ def main():
 	print "All pdb structure objects successfully created!"
 	calcAllParameters()
 	print "All structure parameters successfully calculated and written to output file"
-	print getStructure("1ol5")
 
 main()
