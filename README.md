@@ -7,7 +7,7 @@ Calculate distance and angle parameters for a large-scale set of PDB protein str
 
 Overview
 =============
-All scripts and data structure to calculate structure parameters are contained in the provided python files and run from get_structure_parameters.py. The user must provide a parameters.txt file in the same format as the example file.
+All scripts and data structure to calculate structure parameters are contained in the provided python files and run from get_structure_parameters.py. The user must provide a parameters.txt file in the same format as the example file. The script assumes that the chain of interest is labeled chain "A". If multiple sets of atomic coordinates are present for a residue, the script will calculate distances with the final set of coordinates given.
 
 The example folder includes all scripts, input PDB structures for the Aurora Kinase A, and the output file.
 
