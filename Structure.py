@@ -28,8 +28,6 @@ class Structure:
 		for line in inputPDB:
 			if line[0] == "ATOM" and line[4] == "A": #checks if line is a residue atom in the main PDB chain
 				residueLineList.append(line)
-			if line[0] == "HETATM" and line[3] == "TPO" and line[4] == "A": #gets phosphorylated threonines in main chain
-				residueLineList.append(line)
 		return residueLineList
 
 	#non-static Structure functions
